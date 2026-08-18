@@ -1,0 +1,7 @@
+# Core Part 1 dependencies (pinned to what was tested; installed via `pip install -r requirements.txt`)
+sentence-transformers==5.1.2
+torch==2.8.0
+numpy==2.0.2
+scikit-learn==1.6.1
+datasets==4.5.0  # needed for SentenceTransformer.fit() in src/eval.py (Part 3)
+accelerate==1.10.1  # needed for SentenceTransformer.fit() in src/eval.py (Part 3)

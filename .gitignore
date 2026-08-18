@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+notes/index_cache.pkl
+poc/pipeline.db
+.DS_Store
